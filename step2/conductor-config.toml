@@ -1,0 +1,14 @@
+[[agents]]
+id = "test agent 1"
+name = "Holo Tester 1"
+public_address = "HoloTester1-----------------------------------------------------------------------AAACZp4xHB"
+key_file = "holo_tester.key"
+
+[[ui_bundles]]
+id = "ui_bundle"
+root_dir = "."
+
+[[ui_interfaces]]
+id = "ui_interface"
+bundle = "ui_bundle"
+port = 3000
